@@ -53,14 +53,32 @@ body {
 	grid-column: 1/2;
 	grid-row: 1/21;
 	background-image:
-		repeating-linear-gradient(90deg, transparent 0%, transparent 46%, #FFF 46%, #FFF 53%, transparent 53%, transparent 100%), repeating-linear-gradient(#000 0%, #000 5%, #FFF 5%, #FFF 10%), repeating-linear-gradient(#FFF 0%, #FFF 4.5%, transparent 4.5%, transparent 100%);
+		repeating-linear-gradient(
+			90deg, 
+			transparent 0%, transparent 46%, 
+			#FFF 46%, #FFF 53%, 
+			transparent 53%, transparent 100%), 
+		repeating-linear-gradient(
+			#000 0%, #000 5%, 
+			#FFF 5%, #FFF 10%), 
+		repeating-linear-gradient(
+			#FFF 0%, #FFF 4.5%, 
+			transparent 4.5%, transparent 100%);
 	background-blend-mode: lighten;
 }
 
 .rightZebra {
 	grid-column: 26/27;
 	grid-row: 1/22;
-	background-image: repeating-linear-gradient(#FFF 0%, #FFF 5%, #000 5%, #000 10%), repeating-linear-gradient(90deg, transparent 0%, transparent 46%, #FFF 46%, #FFF 53%, transparent 53%, transparent 100%);
+	background-image: 
+		repeating-linear-gradient(
+			#FFF 0%, #FFF 5%, 
+			#000 5%, #000 10%), 
+		repeating-linear-gradient(
+			90deg, 
+			transparent 0%, transparent 46%, 
+			#FFF 46%, #FFF 53%, 
+			transparent 53%, transparent 100%);
 	background-blend-mode: lighten;
 }
 
@@ -74,7 +92,14 @@ body {
 	grid-template-columns: repeat(24, 1fr);
 	grid-template-rows: repeat(18, 1fr);
 	background-color: #6C6C6C;
-	background-image: repeating-linear-gradient(90deg, #B9B9B9 0%, #B9B9B9 0.3%, transparent 0.3%, transparent 4.155%), repeating-linear-gradient(#B9B9B9 0%, #B9B9B9 0.3%, transparent 0.3%, transparent 5.535%);
+	background-image: 
+		repeating-linear-gradient(
+			90deg, 
+			#B9B9B9 0%, #B9B9B9 0.3%, 
+			transparent 0.3%, transparent 4.155%), 
+		repeating-linear-gradient(
+			#B9B9B9 0%, #B9B9B9 0.3%, 
+			transparent 0.3%, transparent 5.535%);
 
 }
 
@@ -114,7 +139,11 @@ body {
 }
 
 .circleInner .top {
-	background-image: repeating-linear-gradient(90deg, #B9B9B9 0%, #B9B9B9 3.125%, #3C3C3C 3.125%, #3C3C3C 6.25%);
+	background-image: 
+	repeating-linear-gradient(
+		90deg, 
+		#B9B9B9 0%, #B9B9B9 3.125%, 
+		#3C3C3C 3.125%, #3C3C3C 6.25%);
 	overflow: hidden;
 }
 
@@ -237,7 +266,10 @@ body {
 .bigCircle .line4 {
 	grid-column: 1/17;
 	grid-row: 10/11;
-	background-image: linear-gradient(90deg, #00FE00 0%, #E51AD1 100%);
+	background-image: 
+		linear-gradient(
+			90deg, 
+			#00FE00 0%, #E51AD1 100%);
 	border-top: 0.4vmin solid #B9B9B9;
 }
 
@@ -472,7 +504,17 @@ body {
 .bottomLine-top {
 	grid-row: 2/4;
 	grid-column: 1/25;
-	background-image: repeating-linear-gradient(90deg, #B9B9B9 0, #B9B9B9 12.5%, #BBBB00 12.5%, #BBBB00 25%, #00BABB 25%, #00BABB 37.5%, #00BB00 37.5%, #00BB00 50%, #DA15C0 50%, #DA15C0 62.5%, #DA1515 62.5%, #DA1515 75%, #1515C0 75%, #1515C0 87.5%, #151515 87.5%, #151515 100%);
+	background-image: 
+		repeating-linear-gradient(
+			90deg, 
+			#B9B9B9 0, #B9B9B9 12.5%, 
+			#BBBB00 12.5%, #BBBB00 25%, 
+			#00BABB 25%, #00BABB 37.5%, 
+			#00BB00 37.5%, #00BB00 50%, 
+			#DA15C0 50%, #DA15C0 62.5%, 
+			#DA1515 62.5%, #DA1515 75%, 
+			#1515C0 75%, #1515C0 87.5%, 
+			#151515 87.5%, #151515 100%);
 	border-bottom: 0.4vmin solid #B9B9B9;
 }
 
@@ -488,19 +530,33 @@ body {
 .wbLine .left {
 	grid-column: 1/2;
 	grid-row: 1/2;
-	background-image: repeating-linear-gradient(90deg, #B9B9B9 0%, #B9B9B9 16.67%, #000 16.67%, #000 83.33%, #B9B9B9 83.33%, #B9B9B9 100%);
+	background-image: 
+		repeating-linear-gradient(
+			90deg, 
+			#B9B9B9 0%, #B9B9B9 16.67%, 
+			#000 16.67%, #000 83.33%, 
+			#B9B9B9 83.33%, #B9B9B9 100%);
 }
 
 .wbLine .center {
 	grid-column: 2/4;
 	grid-row: 1/2;
-	background-image: repeating-linear-gradient(90deg, #000 0%, #000 50%, #B9B9B9 50%, #B9B9B9 100%);
+	background-image: 
+		repeating-linear-gradient(
+			90deg, 
+			#000 0%, #000 50%, 
+			#B9B9B9 50%, #B9B9B9 100%);
 }
 
 .wbLine .right {
 	grid-column: -1/-2;
 	grid-row: 1/2;
-	background-image: repeating-linear-gradient(90deg, #B9B9B9 0%, #B9B9B9 16.67%, #000 16.67%, #000 83.33%, #B9B9B9 83.33%, #B9B9B9 100%);
+	background-image: 
+		repeating-linear-gradient(
+			90deg, 
+			#B9B9B9 0%, #B9B9B9 16.67%, 
+			#000 16.67%, #000 83.33%, 
+			#B9B9B9 83.33%, #B9B9B9 100%);
 }
 
 .bottomLine-grid {
